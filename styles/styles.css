@@ -70,7 +70,7 @@ background: rgba(13, 19, 33, 0.02);
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 20px;
+padding: 50px;
 
 
 }
@@ -104,4 +104,186 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+}
+.inspiration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-head {
+    margin-bottom: 10px;
+}
+
+.section-description {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* skills */
+.skills-section {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 20px; 
+    gap: 20px; 
+}
+
+.skill-card {
+    flex: 1;
+    text-align: left;
+    padding: 40px; 
+    border-radius: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); visual 
+}
+
+.html-card {
+    background: rgba(255, 76, 30, 0.05); 
+}
+
+.css-card {
+    background: rgba(0, 76, 232, 0.05); 
+}
+
+.js-card {
+    background: rgba(255, 223, 0, 0.05); 
+}
+
+.skill-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.learn-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #007BFF; 
+    margin-top: 10px;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* support part */
+.support-part
+{
+    background: url('../assets/handshake.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.support-head
+{
+    color: rgb(255, 255, 255);
+font-size: 50px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.support-description
+{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* form */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.form-container textarea {
+   
+position: static;
+width: 300px;
+height: 20px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+}
+.form-container button {
+position: static;
+width: 120px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+/* footer */
+footer {
+    background-color: #f0f0f0; /* Background color for the footer */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left h3 {
+    margin: 0; /* Remove default margin for h3 */
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right img {
+    width: 40px; /* Adjust the size of logos as needed */
+    margin-left: 10px; /* Add spacing between logos */
 }
