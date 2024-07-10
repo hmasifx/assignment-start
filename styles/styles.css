@@ -36,6 +36,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+text-decoration: none;
 }
 
 /* Body part start */
@@ -267,7 +268,7 @@ background: rgb(255, 255, 255);
 }
 /* footer */
 footer {
-    background-color: #f0f0f0; /* Background color for the footer */
+    background-color: #f0f0f0; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -275,7 +276,7 @@ footer {
 }
 
 .footer-left h3 {
-    margin: 0; /* Remove default margin for h3 */
+    margin: 0; 
 }
 
 .footer-right {
@@ -284,6 +285,6 @@ footer {
 }
 
 .footer-right img {
-    width: 40px; /* Adjust the size of logos as needed */
-    margin-left: 10px; /* Add spacing between logos */
+    width: 40px; 
+    margin-left: 10px;
 }
